@@ -1,0 +1,290 @@
+#mydiv {
+  position: absolute;
+  left : 17%;
+}
+
+        .csstransforms h3 {
+          /* Abs positioning makes it not take up vert space */
+          position: absolute;
+          top: 0;
+          left: 0;
+    
+          /* Border is the new background */
+          background: none;
+    
+          /* Rotate from top left corner (not default) */
+          transform-origin: 0 0;
+          transform: rotate(90deg);
+        }
+      
+         h3 {
+          font: bold 12px Sans-Serif;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          background: #369;
+          color: #fff;
+          padding: 5px 10px;
+          margin: 3px 0 10px 0;
+          line-height: 24px;
+          
+          }
+    
+            @keyframes colorchange {
+                0% {
+                    background: #f82a2a;
+                }
+    
+                10% {
+                    background: #f89a2a;
+                }
+    
+                20% {
+                    background: #ffc901;
+                }
+    
+                30% {
+                    background: #ff2b01;
+                }
+    
+                40% {
+                    background: #ff6901;
+                }
+    
+                50% {
+                    background: #ffba01;
+                }
+    
+                60% {
+                    background: #ff2b01;
+                }
+    
+                70% {
+                    background: #ff6901;
+                }
+    
+                80% {
+                    background: #ffba01;
+                }
+    
+                90% {
+                    background: #ff2b01;
+                }
+    
+                100% {
+                    background: #ff6901;
+                }
+            }
+    
+    
+    
+            
+    
+                a.ouvrir {
+                    padding: 10px 25px;
+                    background: silver;
+                    color: black;
+                    text-decoration: none;
+                    
+                    /* quelques styles CSS3 */
+                    -ms-transform: rotate(-90deg);
+                    -moz-transform: rotate(-90deg);
+                    -webkit-transform: rotate(-90deg);
+                    transform: rotate(-90deg);
+                    border-radius: 0 0 8px 8px;
+            position:relative;
+            
+           }
+    
+      
+            
+    
+            .etage {
+                float: left;
+                text-align: center;
+            }
+    
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+    
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+    
+            body {
+                background-image: url(../img/background.jpg);
+            }
+    
+            header {
+                background-image: linear-gradient(to right, grey, silver, silver, grey);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+    
+            footer {
+                background-image: linear-gradient(to right, grey, silver, silver, grey);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+    
+            
+                
+        p#doigt a:hover, p#doigt a:focus
+    
+            {
+                background-color: #ff8c00; /* pour les vieux navigateurs */
+                color: black;
+                animation-name: doigt; /* nom de l'animation */
+                animation-duration: 4s; /* temps de l'animation (4s) */
+                animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+                animation-timing-function: linear; /* accelération de l'animation (constant) */
+            }
+            /* deuxième étape */
+            @keyframes doigt {
+                0% {
+                    background: rgba(255,140,0,0.4) url(/images/main.png) no-repeat 5px 10px;
+                }
+    
+                50% {
+                    background: rgba(255,140,0,1) url(/images/main.png) no-repeat 50px 10px;
+                }
+    
+                100% {
+                    background: rgba(255,140,0,0.4) url(/images/main.png) no-repeat 5px 10px;
+                }
+            }
+    
+            @keyframes colorchange {
+                0% {
+                    background: #f82a2a;
+                }
+    
+                10% {
+                    background: #f89a2a;
+                }
+    
+                20% {
+                    background: #ffc901;
+                }
+    
+                30% {
+                    background: #ff2b01;
+                }
+    
+                40% {
+                    background: #ff6901;
+                }
+    
+                50% {
+                    background: #ffba01;
+                }
+    
+                60% {
+                    background: #ff2b01;
+                }
+    
+                70% {
+                    background: #ff6901;
+                }
+    
+                80% {
+                    background: #ffba01;
+                }
+    
+                90% {
+                    background: #ff2b01;
+                }
+    
+                100% {
+                    background: #ff6901;
+                }
+            }
+    
+    
+          
+    
+            #volet {
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+                width: 250px;
+                padding: 0 0 0 20px;
+                background: silver;
+                color: black;
+          left:-220px;
+          position:fixed;
+          
+        }
+    
+    
+            #volet {
+                position: relative;
+                top: 55px;
+            }
+    
+                
+    
+            
+    
+                
+    
+            
+    
+            .etage {
+                float: left;
+                text-align: center;
+            }
+    
+    
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+    
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+    
+            body {
+                background-image: url(../img/background.jpg);
+            }
+    
+            header {
+                background-image: linear-gradient(to right, grey, silver, silver, grey);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+    
+            footer {
+                background-image: linear-gradient(to right, grey, silver, silver, grey);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+    
+            IMG.plan {
+                display: block;
+                margin-left: auto;
+                margin-right: auto
+            }
+    
+            .logo {
+                vertical-align: middle;
+            }
+    
+            .date {
+                background-image: linear-gradient(to right, white, silver, grey, silver, white);
+            }
+        #volet:hover{
+        left:0;
+        
+        }
